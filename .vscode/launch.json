@@ -1,56 +1,72 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "areaOfaCircle",
+      "request": "launch",
+      "mainClass": "areaOfaCircle",
+      "projectName": "java folder_71798751"
+    },
+    {
+      "type": "java",
+      "name": "basics",
+      "request": "launch",
+      "mainClass": "basics",
+      "projectName": "java folder_71798751"
+    },
+    {
+      "type": "java",
+      "name": "inputfromuser",
+      "request": "launch",
+      "mainClass": "inputfromuser",
+      "projectName": "java folder_71798751"
+    },
+    {
+      "type": "java",
+      "name": "simpleinterest",
+      "request": "launch",
+      "mainClass": "simpleinterest",
+      "projectName": "java folder_71798751"
+    },
+    {
+      "type": "java",
+      "name": "variables",
+      "request": "launch",
+      "mainClass": "variables",
+      "projectName": "java folder_71798751"
+    },
+    {
+      "type": "java",
+      "name": "variableupdation",
+      "request": "launch",
+      "mainClass": "variableupdation",
+      "projectName": "java folder_71798751"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "f:/java folder",
+      "program": "f:/java folder/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
         {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "areaOfaCircle",
-            "request": "launch",
-            "mainClass": "areaOfaCircle",
-            "projectName": "java folder_71798751"
-        },
-        {
-            "type": "java",
-            "name": "basics",
-            "request": "launch",
-            "mainClass": "basics",
-            "projectName": "java folder_71798751"
-        },
-        {
-            "type": "java",
-            "name": "inputfromuser",
-            "request": "launch",
-            "mainClass": "inputfromuser",
-            "projectName": "java folder_71798751"
-        },
-        {
-            "type": "java",
-            "name": "simpleinterest",
-            "request": "launch",
-            "mainClass": "simpleinterest",
-            "projectName": "java folder_71798751"
-        },
-        {
-            "type": "java",
-            "name": "variables",
-            "request": "launch",
-            "mainClass": "variables",
-            "projectName": "java folder_71798751"
-        },
-        {
-            "type": "java",
-            "name": "variableupdation",
-            "request": "launch",
-            "mainClass": "variableupdation",
-            "projectName": "java folder_71798751"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }
